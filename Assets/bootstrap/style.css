@@ -1,0 +1,931 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6f25e !important;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header {
+    background-color: #fff0;
+    color: #333;
+    position: fixed;
+    z-index: 1000;
+    top: 0 !important;
+    left: 0;
+    right: 0;
+}
+
+
+
+.sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    opacity: .9;
+    margin-bottom: 15px;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    opacity: .9;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+nav li {
+    margin-right: 20px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    color: #000000 !important;
+    text-decoration: none;
+}
+
+nav a.active {
+    color: #aaa0a0 !important;
+    text-decoration: none;
+}
+
+.buttondiv {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.donate-button-nav:hover {
+    background-color: #d029a6;
+
+}
+
+
+
+
+.donate-button {
+    background-color: #f146de;
+    color: #fff;
+    padding: 10px 40px 13px 40px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.donate-button:hover {
+    background-color: #dd40c8;
+    color: #000000;
+}
+
+.contfluid {
+    min-height: 800px !important;
+    margin-top: 70px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+
+
+
+
+
+.vision {
+    padding: 20px 0;
+}
+
+.person-icon {
+    color: #f258e1 !important;
+}
+
+
+.vision p {
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #ffb9f7;
+    color: #000000;
+    padding: 7px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+.img-radius {
+    border-radius: 15px;
+}
+
+
+
+
+.flex-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-radius {
+    border-radius: 25px !important;
+}
+
+.image-radius-member {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border: 4px solid #ffb6c1;
+    /* box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important; */
+    border-bottom-right-radius: 50% !important;
+    border-top-right-radius: 50% !important;
+
+    border-top-left-radius: 50% !important;
+    height: 225px;
+}
+
+.contact-div:hover .role {
+    background-color: #ff1493;
+}
+
+.contact-div .role::before {
+    content: '★ ';
+    color: #fff;
+}
+
+.contact-div:hover {
+    transform: scale(1.1);
+}
+
+.contact-div:hover {
+    transform: translateY(-10px);
+}
+
+.contact-div {
+    transition: transform 0.3s;
+
+
+}
+
+.contact-div h4 {
+    margin-top: 15px;
+    font-size: 22px;
+    color: #ff1493;
+    font-weight: bold;
+}
+
+.contact-div p {
+    margin: 0;
+    color: #ff69b4;
+    font-size: 16px;
+}
+
+.contact-div .role {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 6px 20px;
+    border-radius: 25px;
+    background-color: #ff69b4;
+    color: #fff;
+    font-size: 14px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* .contact-div:hover{
+    transform: scale(1.05) !important;
+
+} */
+
+
+.member-name {
+    margin-top: 9px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    border-bottom-right-radius: 50px !important;
+    border-top-left-radius: 50px !important;
+    background: #f9adff52;
+
+}
+
+.lead {
+    text-align: left !important;
+    margin-left: 15% !important;
+    margin-right: 20% !important;
+    width: 400px !important;
+}
+
+
+.lead-two {
+    text-align: left !important;
+    margin-left: 35% !important;
+    margin-right: 20% !important;
+    width: 400px !important;
+}
+
+.card-div {
+    border: 1px solid pink;
+    padding: 10px;
+    min-height: 115px;
+    background: rgb(255 232 236 / 47%);
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-div:hover {
+    border: none;
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.img-link:hover {
+    text-decoration: none;
+}
+
+.card-div-new {
+    min-height: 290px;
+}
+
+.img-heart {
+    transform: rotate(15deg);
+    top: 1%;
+    right: -5%;
+    z-index: 20;
+}
+
+.pink-card {
+    box-shadow: 0 15px 30px rgb(35 30 30 / 20%);
+    border-radius: 15px;
+    border: 0px solid gray;
+    background-image: linear-gradient(306deg, #ffcdd759 0%, #ffffff2b 74%);
+}
+
+
+
+.card-event:hover {
+    background-color: #ed3cbe !important;
+
+}
+
+
+
+.pink-text {
+    color: #fd40a5 !important;
+}
+
+
+
+.endalign {
+    text-align: end !important;
+}
+
+.footer-flex {
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.navbar-toggler {
+    padding: .25rem .25rem !important;
+    font-size: .85rem !important;
+
+}
+
+@media(min-width:260px) and (max-width:481px) {
+.img-heart {
+    display: none !important;
+}
+
+    .card-event {
+        text-align: center;
+        padding: 2px 20px;
+        background-color: #ef67cb !important;
+        z-index: 20;
+    
+    }
+    .card-event-gray {
+        width: 80px;
+        text-align: center;
+        padding: 8px 20px;
+        background-color: #544c52 !important;
+        z-index: 20;
+    
+    }
+    .event-date {
+        color: white !important;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    .event-month {
+        color: white !important;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+    .event-gray-date {
+        color: white !important;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .event-gray-month {
+        color: white !important;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .contact-info a {
+        font-size: 14px !important;
+    }
+
+    .text-container {
+        word-spacing: 1px;
+        text-align: justify;
+        margin-right: 1%;
+        margin-left: 1%;
+        font-size: 16px;
+        line-height: 1px;
+    }
+
+    .home-container {
+        word-spacing: 1px;
+        text-align: justify;
+        margin-right: 1%;
+        margin-left: 1%;
+        font-size: 16px;
+        line-height: 1px;
+    }
+
+    .sub-heading {
+        font-size: 25px;
+        color: grey;
+
+
+    }
+
+    .sub-heading-help {
+        color: grey;
+        margin-left: 40px;
+        margin-right: 40px;
+
+        font-size: 20px;
+        text-align: justify;
+        word-spacing: 2px;
+        line-height: 25px;
+    }
+
+    .home-text {
+        font-size: 20px !important;
+        font-weight: 600;
+    }
+
+    .text-overlay {
+        position: absolute;
+        top: 6%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+    }
+
+    .home-img {
+        position: relative;
+        margin-top: 2px !important;
+        object-fit: cover;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        height: 340px;
+    }
+
+    .nav-overlay {
+        text-align: center;
+        color: black !important;
+        font-family: Verdana, sans-serif !important;
+        font-size: 16px !important;
+    }
+
+    .logo-img {
+        height: 20px;
+        text-align: left !important;
+        margin: 0px 0px 0px 10px;
+    }
+
+    .donate-button-nav {
+        font-size: 11px;
+        background-color: #e304ab;
+        color: #fff;
+        padding: 6px 17px;
+        border: none;
+        border-radius: 28px;
+        cursor: pointer;
+        float: right;
+        margin: 3px 3px 0px 0px;
+    }
+}
+
+@media (min-width: 482px) and (max-width:767px) {
+    .card-event {
+        text-align: center;
+        padding: 8px 29px;
+        background-color: #ef67cb !important;
+        z-index: 20;
+    
+    }
+    .card-event-gray {
+        text-align: center;
+        padding: 8px 29px;
+        background-color: #544c52 !important;
+        z-index: 20;
+    
+    }
+    .event-date {
+        color: white !important;
+        font-size: 50px;
+        font-weight: 600;
+    }
+    
+    .event-month {
+        color: white !important;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    .event-gray-date {
+        color: white !important;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    
+    .event-gray-month {
+        color: white !important;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .text-container {
+        word-spacing: 2px;
+        text-align: justify;
+        margin-right: 2%;
+        margin-left: 2%;
+        font-size: 20px;
+        line-height: 2px;
+    }
+
+    .home-container {
+        word-spacing: 2px;
+        text-align: justify;
+        margin-right: 2%;
+        margin-left: 2%;
+        font-size: 18px;
+        line-height: 2px;
+    }
+
+    .sub-heading {
+        font-size: 20px;
+        color: grey;
+
+
+    }
+
+    .sub-heading-help {
+        color: grey;
+        margin-left: 40px;
+        margin-right: 40px;
+
+        font-size: 20px;
+        text-align: justify;
+        word-spacing: 2px;
+        line-height: 25px;
+    }
+
+    .home-text {
+        font-weight: 600 !important;
+
+        font-size: 25px !important;
+    }
+
+    .text-overlay {
+        position: absolute;
+        top: 6%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+    }
+
+    .home-img {
+        position: relative;
+        margin-top: 14px !important;
+        object-fit: cover;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        height: 400px;
+    }
+
+    .nav-overlay {
+        text-align: center;
+        color: black !important;
+        font-family: Verdana, sans-serif !important;
+        font-size: 16px !important;
+    }
+
+    .logo-img {
+        height: 25px;
+        text-align: left !important;
+        margin: 10px 0px 0px 10px;
+    }
+
+    .donate-button-nav {
+        font-size: 16px;
+        background-color: #e304ab;
+        color: #fff;
+        padding: 6px 23px;
+        border: none;
+        border-radius: 28px;
+        cursor: pointer;
+        float: right;
+        margin: 6px 9px 0px 0px;
+    }
+}
+
+@media(min-width:768px) and (max-width:1024px) {
+    .card-event {
+        text-align: center;
+        padding: 8px 20px;
+        background-color: #ef67cb !important;
+        z-index: 20;
+    
+    }
+    .card-event-gray {
+        text-align: center;
+        padding: 8px 20px;
+        background-color: #544c52 !important;
+        z-index: 20;
+    
+    }
+    .event-date {
+        color: white !important;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    .event-month {
+        color: white !important;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .event-gray-date {
+        color: white !important;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    .event-gray-month {
+        color: white !important;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .text-container {
+        word-spacing: 3px;
+        text-align: justify;
+        margin-right: 3%;
+        margin-left: 3%;
+        font-size: 20px;
+        line-height: 3px;
+    }
+
+    .home-container {
+        word-spacing: 3px;
+        text-align: justify;
+        margin-right: 3%;
+        margin-left: 3%;
+        font-size: 20px;
+        line-height: 3px;
+    }
+
+    .sub-heading {
+        font-size: 20px;
+        color: grey;
+        margin-left: 50px;
+        margin-right: 50px;
+
+    }
+
+    .sub-heading-help {
+        color: grey;
+        margin-left: 40px;
+        margin-right: 40px;
+
+        font-size: 20px;
+        text-align: justify;
+        word-spacing: 2px;
+        line-height: 25px;
+    }
+
+    .home-text {
+        font-weight: 600 !important;
+
+        font-size: 32px !important;
+    }
+
+    .text-overlay {
+        position: absolute;
+        top: 7%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+    }
+
+    .home-img {
+        position: relative;
+        margin-top: 14px !important;
+        object-fit: cover;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        height: 400px;
+    }
+
+    .nav-overlay {
+        text-align: center;
+        color: black !important;
+        font-family: Verdana, sans-serif !important;
+        font-size: 18px !important;
+    }
+
+    .logo-img {
+        height: 35px;
+        text-align: left !important;
+        margin: 10px 0px 0px 10px;
+    }
+
+    .donate-button-nav {
+        font-size: 16px;
+        background-color: #e304ab;
+        color: #fff;
+        padding: 7px 30px;
+        border: none;
+        border-radius: 28px;
+        cursor: pointer;
+        float: right;
+        margin: 6px 9px 0px 0px;
+    }
+}
+
+@media(min-width:1025px) and (max-width:1600px) {
+    .card-event {
+        text-align: center;
+        padding: 8px 29px;
+        background-color: #ef67cb !important;
+        z-index: 20;
+    
+    }
+    .card-event-gray {
+        text-align: center;
+        padding: 8px 29px;
+        background-color: #544c52 !important;
+        z-index: 20;
+    
+    }
+    .event-date {
+        color: white !important;
+        font-size: 50px;
+        font-weight: 600;
+    }
+    
+    .event-month {
+        color: white !important;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    .event-gray-date {
+        color: white !important;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    
+    .event-gray-month {
+        color: white !important;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .text-container {
+        word-spacing: 3px;
+        text-align: justify;
+        margin-right: 3%;
+        margin-left: 3%;
+        font-size: 20px;
+        line-height: 3px;
+    }
+
+    .home-container {
+        word-spacing: 3px;
+        text-align: justify;
+        margin-right: 3%;
+        margin-left: 3%;
+        font-size: 20px;
+        line-height: 3px;
+    }
+
+    .sub-heading {
+        font-size: 20px;
+        color: grey;
+        margin-left: 50px;
+        margin-right: 50px;
+
+    }
+
+    .sub-heading-help {
+        color: grey;
+        margin-left: 40px;
+        margin-right: 40px;
+
+        font-size: 20px;
+        text-align: justify;
+        word-spacing: 2px;
+        line-height: 25px;
+    }
+
+    .home-text {
+        font-weight: 600 !important;
+
+        font-size: 40px !important;
+    }
+
+    .text-overlay {
+        position: absolute;
+        top: 13%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+    }
+
+    .home-img {
+        position: relative;
+        margin-top: 14px !important;
+        object-fit: cover;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        height: 500px;
+    }
+
+    .nav-overlay {
+        text-align: center;
+        color: black !important;
+        font-family: Verdana, sans-serif !important;
+        font-size: 20px !important;
+    }
+
+    .logo-img {
+        height: 35px;
+        text-align: left !important;
+        margin: 10px 0px 0px 10px;
+    }
+
+    .donate-button-nav {
+        font-size: 16px;
+        background-color: #e304ab;
+        color: #fff;
+        padding: 7px 30px;
+        border: none;
+        border-radius: 28px;
+        cursor: pointer;
+        float: right;
+        margin: 6px 9px 0px 0px;
+    }
+}
+
+@media(min-width:1601px) and (max-width:2000px) {
+    .card-event {
+        text-align: center;
+        padding: 8px 29px;
+        background-color: #ef67cb !important;
+        z-index: 20;
+    
+    }
+    .card-event-gray {
+        text-align: center;
+        padding: 8px 29px;
+        background-color: #544c52 !important;
+        z-index: 20;
+    
+    }
+    .event-date {
+        color: white !important;
+        font-size: 50px;
+        font-weight: 600;
+    }
+    
+    .event-month {
+        color: white !important;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    .event-gray-date {
+        color: white !important;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    
+    .event-gray-month {
+        color: white !important;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .text-container {
+        word-spacing: 4px;
+        text-align: justify;
+        margin-right: 8%;
+        margin-left: 8%;
+        font-size: 22px;
+        line-height: 14px;
+    }
+
+    .home-container {
+        word-spacing: 4px;
+        text-align: justify;
+        margin-right: 15%;
+        margin-left: 15%;
+        font-size: 22px;
+        line-height: 14px;
+    }
+
+    .sub-heading {
+        font-size: 28px;
+        color: grey;
+        margin-left: 50px;
+        margin-right: 50px;
+
+    }
+
+    .sub-heading-help {
+        color: grey;
+        margin-left: 40px;
+        margin-right: 40px;
+
+        font-size: 20px;
+        text-align: justify;
+        word-spacing: 2px;
+        line-height: 25px;
+    }
+
+    .home-text {
+        font-weight: 600 !important;
+        font-size: 50px !important;
+    }
+
+    .text-overlay {
+        position: absolute;
+        top: 13%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+    }
+
+    .home-img {
+        position: relative;
+        margin-top: 14px !important;
+        object-fit: cover;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        height: 660px;
+    }
+
+    .nav-overlay {
+        text-align: center;
+        color: black !important;
+        font-family: Verdana, sans-serif !important;
+        font-size: 20px !important;
+    }
+
+    .logo-img {
+        height: 35px;
+        text-align: left !important;
+        margin: 10px 0px 0px 10px;
+    }
+
+    .donate-button-nav {
+        font-size: 16px;
+        background-color: #e304ab;
+        color: #fff;
+        padding: 7px 30px;
+        border: none;
+        border-radius: 28px;
+        cursor: pointer;
+        float: right;
+        margin: 6px 9px 0px 0px;
+    }
+}
