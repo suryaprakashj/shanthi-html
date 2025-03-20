@@ -11,6 +11,78 @@ body {
     padding: 10px;
 }
 
+#gallery {
+    cursor: pointer;
+}
+
+.gallerypic {
+    background-color: antiquewhite;
+    border-radius: 24px;
+    box-shadow: 5px 5px 5px rgba(80, 90, 94, 0.902);
+}
+
+.glrypic1 {
+    text-align: center;
+}
+
+.containerimg {
+    position: relative;
+}
+
+.textyear {
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.imagegallery {
+    position: relative;
+    text-align: center;
+    opacity: .7;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.containerimg:hover .imagegallery {
+    opacity: 0.3;
+}
+
+.containerimg:hover .imagegallery1 {
+    opacity: 0.8;
+}
+
+.containerimg:hover .middle {
+    opacity: 1;
+}
+
+.imageplus {
+    color: rgb(4, 4, 4);
+    font-size: 50px;
+    padding: 16px 32px;
+}
+
+.gallerypic {
+    background-color: antiquewhite;
+    border-radius: 24px;
+    box-shadow: 5px 5px 5px rgba(80, 90, 94, 0.902);
+}
+
 header {
     background-color: #fff0;
     color: #333;
@@ -21,7 +93,76 @@ header {
     right: 0;
 }
 
+.dropelementt {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+}
 
+.dropelementt:hover .dropp.dropdown {
+    display: block; /* Display the dropdown */
+}
+
+.dropdown.dropp2:hover .dropdown.dropp3 {
+    display: block; /* Display the dropdown */
+}
+
+.dropelementt:hover .dropp1.dropdown {
+    display: block; /* Display the dropdown */
+}
+
+.dropelementt:hover .dropp2.dropdown {
+    display: block; /* Display the dropdown */
+}
+
+.droplink:hover {
+    color: rgb(0, 0, 0);
+    background: #4536361f;
+}
+
+.dropp.dropdown {
+    /* min-width: 100%; Set width of the dropdown */
+    /* background: #f2f2f2; */
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+
+.dropp1 {
+    padding: 0;
+    list-style: none;
+    display: none;
+    background: #ffffff !important;
+    width: 200px;
+}
+
+.dropp1.dropdown {
+    /* min-width: 100%; Set width of the dropdown */
+    /* background: #f2f2f2; */
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+
+.dropp2.dropdown {
+    /* min-width: 100%; Set width of the dropdown */
+    /* background: #f2f2f2; */
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+
+.dropp3.dropdown {
+    /* min-width: 100%; Set width of the dropdown */
+    /* background: #f2f2f2; */
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
 
 .sticky-top {
     position: -webkit-sticky;
@@ -30,6 +171,35 @@ header {
     z-index: 1020;
     opacity: .9;
     margin-bottom: 15px;
+}
+
+
+.dropdown-menu .sub-menu {
+    background-color: white !important;
+    left: 100%;
+    top: 0;
+    visibility: hidden;
+    margin-top: -1px;
+}
+
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block !important;
+}
+
+.dropdown.dropdown-menu.dropdown1-content {
+    position: absolute !important;
+}
+
+.droplist {
+    position: relative;
+}
+
+.dropdown-menu.sub-menu.dropdown1-content {
+    position: absolute !important;
 }
 
 .navbar {
@@ -305,6 +475,24 @@ footer {
     display: none !important;
 }
 
+.glrydiv {
+    top: 80%;
+    /* left: 35%; */
+    z-index: 2;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 700;
+    font-size: medium;
+}
+
+.droplink {
+display: block;
+padding: .5rem 0rem;
+color: rgb(0, 0, 0);
+text-decoration: none !important;
+}
+
     .card-event {
         text-align: center;
         padding: 2px 20px;
@@ -440,6 +628,25 @@ footer {
         z-index: 20;
     
     }
+
+    .glrydiv {
+        top: 78%;
+        /* left: 35%; */
+        z-index: 2;
+        position: absolute;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-weight: 700;
+        font-size: small;
+    }
+
+    .droplink {
+    display: block;
+    padding: .5rem 0rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none !important;
+}
+
     .card-event-gray {
         text-align: center;
         padding: 8px 29px;
@@ -564,6 +771,25 @@ footer {
         z-index: 20;
     
     }
+
+    .glrydiv {
+        top: 78%;
+        /* left: 35%; */
+        z-index: 2;
+        position: absolute;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-weight: 700;
+        font-size: 17px;
+    }
+
+    .droplink {
+    display: block;
+    padding: .5rem 0rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none !important;
+}
+
     .card-event-gray {
         text-align: center;
         padding: 8px 20px;
@@ -689,6 +915,29 @@ footer {
         z-index: 20;
     
     }
+
+    .glrydiv {
+        top: 80%;
+        /* left: 35%; */
+        z-index: 2;
+        position: absolute;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-weight: 700;
+        font-size: 17px;
+    }
+
+    .droplink {
+    display: block;
+    padding: .5rem .5rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none !important;
+}
+
+    .navv {
+        margin-right: 5px;
+    }
+
     .card-event-gray {
         text-align: center;
         padding: 8px 29px;
@@ -814,6 +1063,30 @@ footer {
         z-index: 20;
     
     }
+    
+    .glrydiv {
+        top: 80%;
+        /* left: 35%; */
+        z-index: 2;
+        position: absolute;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-weight: 700;
+        font-size: 17px;
+    }
+
+    .droplink {
+        display: block;
+        padding: .5rem .5rem;
+        color: rgb(0, 0, 0);
+        text-decoration: none !important;
+    }
+    
+    .navv {
+        margin-right: 25px !important;
+        font-size: 14px;
+    }
+
     .card-event-gray {
         text-align: center;
         padding: 8px 29px;
