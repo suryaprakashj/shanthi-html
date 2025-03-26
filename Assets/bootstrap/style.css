@@ -11,6 +11,43 @@ body {
     padding: 10px;
 }
 
+.destbtn {
+    width: 80% !important;
+    margin-bottom: 10px !important;
+    background-color: rgba(34, 32, 32, 0.8) !important;
+    border: 1px sold black !important;
+    padding: 0px 10px 0px 13px !important;
+    text-decoration: none !important;
+}
+
+.destbtn:hover {
+    background-color: rgb(3, 3, 3) !important;
+}
+
+.destbtn.active {
+    background-color: black !important;
+}
+
+.destlink {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 9px 5px;
+    color: white !important;
+    text-decoration: none !important;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 5px;
+}
+
+.arrrowright {
+    margin: 0px 0px 0px 16px;
+    color: white !important;
+}
+
 #gallery {
     cursor: pointer;
 }
@@ -100,19 +137,23 @@ header {
 }
 
 .dropelementt:hover .dropp.dropdown {
-    display: block; /* Display the dropdown */
+    display: block;
+    /* Display the dropdown */
 }
 
 .dropdown.dropp2:hover .dropdown.dropp3 {
-    display: block; /* Display the dropdown */
+    display: block;
+    /* Display the dropdown */
 }
 
 .dropelementt:hover .dropp1.dropdown {
-    display: block; /* Display the dropdown */
+    display: block;
+    /* Display the dropdown */
 }
 
 .dropelementt:hover .dropp2.dropdown {
-    display: block; /* Display the dropdown */
+    display: block;
+    /* Display the dropdown */
 }
 
 .droplink:hover {
@@ -471,66 +512,69 @@ footer {
 }
 
 @media(min-width:260px) and (max-width:481px) {
-.img-heart {
-    display: none !important;
-}
+    .img-heart {
+        display: none !important;
+    }
 
-.glrydiv {
-    top: 80%;
-    /* left: 35%; */
-    z-index: 2;
-    position: absolute;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-weight: 700;
-    font-size: medium;
-}
+    .glrydiv {
+        top: 80%;
+        /* left: 35%; */
+        z-index: 2;
+        position: absolute;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-weight: 700;
+        font-size: medium;
+    }
 
-.droplink {
-display: block;
-padding: .5rem 0rem;
-color: rgb(0, 0, 0);
-text-decoration: none !important;
-}
+    .droplink {
+        display: block;
+        padding: .5rem 0rem;
+        color: rgb(0, 0, 0);
+        text-decoration: none !important;
+    }
 
     .card-event {
         text-align: center;
         padding: 2px 20px;
         background-color: #ef67cb !important;
         z-index: 20;
-    
+
     }
+
     .card-event-gray {
         width: 80px;
         text-align: center;
         padding: 8px 20px;
         background-color: #544c52 !important;
         z-index: 20;
-    
+
     }
+
     .event-date {
         color: white !important;
         font-size: 30px;
         font-weight: 600;
     }
-    
+
     .event-month {
         color: white !important;
         font-size: 15px;
         font-weight: 600;
     }
-    
+
     .event-gray-date {
         color: white !important;
         font-size: 20px;
         font-weight: 600;
     }
-    
+
     .event-gray-month {
         color: white !important;
         font-size: 15px;
         font-weight: 600;
     }
+
     .contact-info a {
         font-size: 14px !important;
     }
@@ -626,7 +670,7 @@ text-decoration: none !important;
         padding: 8px 29px;
         background-color: #ef67cb !important;
         z-index: 20;
-    
+
     }
 
     .glrydiv {
@@ -641,42 +685,44 @@ text-decoration: none !important;
     }
 
     .droplink {
-    display: block;
-    padding: .5rem 0rem;
-    color: rgb(0, 0, 0);
-    text-decoration: none !important;
-}
+        display: block;
+        padding: .5rem 0rem;
+        color: rgb(0, 0, 0);
+        text-decoration: none !important;
+    }
 
     .card-event-gray {
         text-align: center;
         padding: 8px 29px;
         background-color: #544c52 !important;
         z-index: 20;
-    
+
     }
+
     .event-date {
         color: white !important;
         font-size: 50px;
         font-weight: 600;
     }
-    
+
     .event-month {
         color: white !important;
         font-size: 25px;
         font-weight: 600;
     }
-    
+
     .event-gray-date {
         color: white !important;
         font-size: 40px;
         font-weight: 600;
     }
-    
+
     .event-gray-month {
         color: white !important;
         font-size: 20px;
         font-weight: 600;
     }
+
     .text-container {
         word-spacing: 2px;
         text-align: justify;
@@ -769,7 +815,7 @@ text-decoration: none !important;
         padding: 8px 20px;
         background-color: #ef67cb !important;
         z-index: 20;
-    
+
     }
 
     .glrydiv {
@@ -784,42 +830,44 @@ text-decoration: none !important;
     }
 
     .droplink {
-    display: block;
-    padding: .5rem 0rem;
-    color: rgb(0, 0, 0);
-    text-decoration: none !important;
-}
+        display: block;
+        padding: .5rem 0rem;
+        color: rgb(0, 0, 0);
+        text-decoration: none !important;
+    }
 
     .card-event-gray {
         text-align: center;
         padding: 8px 20px;
         background-color: #544c52 !important;
         z-index: 20;
-    
+
     }
+
     .event-date {
         color: white !important;
         font-size: 30px;
         font-weight: 600;
     }
-    
+
     .event-month {
         color: white !important;
         font-size: 18px;
         font-weight: 600;
     }
-    
+
     .event-gray-date {
         color: white !important;
         font-size: 30px;
         font-weight: 600;
     }
-    
+
     .event-gray-month {
         color: white !important;
         font-size: 15px;
         font-weight: 600;
     }
+
     .text-container {
         word-spacing: 3px;
         text-align: justify;
@@ -913,7 +961,7 @@ text-decoration: none !important;
         padding: 8px 29px;
         background-color: #ef67cb !important;
         z-index: 20;
-    
+
     }
 
     .glrydiv {
@@ -928,11 +976,11 @@ text-decoration: none !important;
     }
 
     .droplink {
-    display: block;
-    padding: .5rem .5rem;
-    color: rgb(0, 0, 0);
-    text-decoration: none !important;
-}
+        display: block;
+        padding: .5rem .5rem;
+        color: rgb(0, 0, 0);
+        text-decoration: none !important;
+    }
 
     .navv {
         margin-right: 5px;
@@ -943,31 +991,33 @@ text-decoration: none !important;
         padding: 8px 29px;
         background-color: #544c52 !important;
         z-index: 20;
-    
+
     }
+
     .event-date {
         color: white !important;
         font-size: 50px;
         font-weight: 600;
     }
-    
+
     .event-month {
         color: white !important;
         font-size: 25px;
         font-weight: 600;
     }
-    
+
     .event-gray-date {
         color: white !important;
         font-size: 40px;
         font-weight: 600;
     }
-    
+
     .event-gray-month {
         color: white !important;
         font-size: 20px;
         font-weight: 600;
     }
+
     .text-container {
         word-spacing: 3px;
         text-align: justify;
@@ -1061,9 +1111,9 @@ text-decoration: none !important;
         padding: 8px 29px;
         background-color: #ef67cb !important;
         z-index: 20;
-    
+
     }
-    
+
     .glrydiv {
         top: 80%;
         /* left: 35%; */
@@ -1081,7 +1131,7 @@ text-decoration: none !important;
         color: rgb(0, 0, 0);
         text-decoration: none !important;
     }
-    
+
     .navv {
         margin-right: 25px !important;
         font-size: 14px;
@@ -1092,31 +1142,33 @@ text-decoration: none !important;
         padding: 8px 29px;
         background-color: #544c52 !important;
         z-index: 20;
-    
+
     }
+
     .event-date {
         color: white !important;
         font-size: 50px;
         font-weight: 600;
     }
-    
+
     .event-month {
         color: white !important;
         font-size: 25px;
         font-weight: 600;
     }
-    
+
     .event-gray-date {
         color: white !important;
         font-size: 40px;
         font-weight: 600;
     }
-    
+
     .event-gray-month {
         color: white !important;
         font-size: 20px;
         font-weight: 600;
     }
+
     .text-container {
         word-spacing: 4px;
         text-align: justify;
