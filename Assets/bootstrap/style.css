@@ -11,36 +11,12 @@ body {
     padding: 10px;
 }
 
-.destbtn {
-    width: 80% !important;
-    margin-bottom: 10px !important;
-    background-color: rgba(34, 32, 32, 0.8) !important;
-    border: 1px sold black !important;
-    padding: 0px 10px 0px 13px !important;
-    text-decoration: none !important;
-}
-
 .destbtn:hover {
     background-color: rgb(3, 3, 3) !important;
 }
 
 .destbtn.active {
     background-color: black !important;
-}
-
-.destlink {
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 600;
-    padding: 9px 5px;
-    color: white !important;
-    text-decoration: none !important;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: 100%;
-    gap: 5px;
 }
 
 .arrrowright {
@@ -516,6 +492,30 @@ footer {
         display: none !important;
     }
 
+    .destbtn {
+        width: 31% !important;
+        margin: 0px 7px 6px 0px !important;
+        background-color: rgba(34, 32, 32, 0.8) !important;
+        border: 1px sold black !important;
+        padding: 0px 0px 0px 1px !important;
+        text-decoration: none !important;
+    }
+
+    .destlink {
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 4px 5px;
+        color: white !important;
+        text-decoration: none !important;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        gap: 5px;
+    }
+
     .glrydiv {
         top: 80%;
         /* left: 35%; */
@@ -671,6 +671,30 @@ footer {
         background-color: #ef67cb !important;
         z-index: 20;
 
+    }
+    
+    .destlink {
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 4px 5px;
+        color: white !important;
+        text-decoration: none !important;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        gap: 5px;
+    }
+
+    .destbtn {
+        width: 31% !important;
+        margin: 0px 7px 6px 0px !important;
+        background-color: rgba(34, 32, 32, 0.8) !important;
+        border: 1px sold black !important;
+        padding: 0px 0px 0px 1px !important;
+        text-decoration: none !important;
     }
 
     .glrydiv {
@@ -829,6 +853,30 @@ footer {
         font-size: 17px;
     }
 
+    .destlink {
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 9px 5px;
+        color: white !important;
+        text-decoration: none !important;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        gap: 5px;
+    }
+
+    .destbtn {
+        width: 80% !important;
+        margin-bottom: 10px !important;
+        background-color: rgba(34, 32, 32, 0.8) !important;
+        border: 1px sold black !important;
+        padding: 0px 10px 0px 13px !important;
+        text-decoration: none !important;
+    }
+
     .droplink {
         display: block;
         padding: .5rem 0rem;
@@ -975,6 +1023,30 @@ footer {
         font-size: 17px;
     }
 
+    .destlink {
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 9px 5px;
+        color: white !important;
+        text-decoration: none !important;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        gap: 5px;
+    }
+
+    .destbtn {
+        width: 80% !important;
+        margin-bottom: 10px !important;
+        background-color: rgba(34, 32, 32, 0.8) !important;
+        border: 1px sold black !important;
+        padding: 0px 10px 0px 13px !important;
+        text-decoration: none !important;
+    }
+
     .droplink {
         display: block;
         padding: .5rem .5rem;
@@ -1112,6 +1184,30 @@ footer {
         background-color: #ef67cb !important;
         z-index: 20;
 
+    }
+
+    .destlink {
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 9px 5px;
+        color: white !important;
+        text-decoration: none !important;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        gap: 5px;
+    }
+
+    .destbtn {
+        width: 80% !important;
+        margin-bottom: 10px !important;
+        background-color: rgba(34, 32, 32, 0.8) !important;
+        border: 1px sold black !important;
+        padding: 0px 10px 0px 13px !important;
+        text-decoration: none !important;
     }
 
     .glrydiv {
